@@ -1,0 +1,37 @@
+Step-1: Installing virtualenv:
+	$ pip install virtualenv
+
+Step-2: Test your installation:
+	$ virtualenv --version
+
+Step-3: Naming Virtual Environment:
+	$ virtualenv my_env
+
+Step-4: Activating Virtual Environment:
+	$ source ./my_env/Scripts/activate
+Note: While activating sometimes the source command may not work. So don't use the source.
+
+Step-5: Deactivating Virtual Environment:
+	$ deactivate
+
+============================================================
+# To check if Django is installed or not
+Step-1: Check Version:
+	$ python -m django --version
+Step-2: To install Django:
+	$ pip install django
+
+============================================================
+
+# To create a project and application and run it
+Step-1: Create Project:
+	$ django-admin startproject project_name
+
+Step-2: Change Directory:
+	$ cd project_name
+
+Step-3: Create an application:
+	$ django-admin startapp app_name
+
+Step-4: Run project on local server:
+	$ py manage.py runserver
